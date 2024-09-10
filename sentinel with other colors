@@ -139,18 +139,6 @@ function Library:Window(title)
     Close.MouseLeave:connect(function()
     TweenService:Create(Close, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {ImageColor3 = Color3.fromRGB(166, 166, 166)},true):Play()
     end)
-    
-    Resize.Name = "Resize"
-    Resize.Parent = Main
-    Resize.AnchorPoint = Vector2.new(1, 1)
-    Resize.BackgroundTransparency = 1.000
-    Resize.Position = UDim2.new(1, -4, 1, -4)
-    Resize.Size = UDim2.new(0, 16, 0, 16)
-    Resize.ZIndex = 2
-    Resize.Image = "rbxassetid://3926307971"
-    Resize.ImageColor3 = Color3.fromRGB(128, 129, 128)
-    Resize.ImageRectOffset = Vector2.new(204, 364)
-    Resize.ImageRectSize = Vector2.new(36, 36)
 
     GameName.Name = "GameName"
     GameName.Parent = Top 
